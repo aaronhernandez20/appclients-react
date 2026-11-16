@@ -1,5 +1,5 @@
 import { supabase } from '../config/supabase';
-import { Client } from '../interfaces/Client';
+import type { Client } from '../interfaces/Client';
 
 const TABLE = 'clients';
 

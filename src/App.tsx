@@ -2,6 +2,7 @@ import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Navigate, Route } from 'react-router-dom';
 
+import AboutPage from './pages/AboutPage';
 import ClientsPage from './pages/ClientsPage';
 import EditClientPage from './pages/EditClientPage';
 import NewClientPage from './pages/NewClientPage';
@@ -22,9 +23,6 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-
-
-
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------
@@ -34,11 +32,10 @@ import '@ionic/react/css/display.css';
 
 /* import '@ionic/react/css/palettes/dark.always.css'; */
 /* import '@ionic/react/css/palettes/dark.class.css'; */
-import '@ionic/react/css/palettes/dark.system.css';
+/* import '@ionic/react/css/palettes/dark.system.css'; */
 
 /* Theme variables */
 import './theme/variables.css';
-
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -51,6 +48,7 @@ const App: React.FC = () => (
         <Route path="/clients" element={<ClientsPage />} />
         <Route path="/clients/new" element={<NewClientPage />} />
         <Route path="/clients/edit/:id" element={<EditClientPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/" element={<Navigate to="/clients" replace />} />
       </IonRouterOutlet>
     </IonReactRouter>
