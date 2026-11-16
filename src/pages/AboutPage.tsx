@@ -27,11 +27,11 @@ const AboutPage: React.FC = () => {
             className="img-fluid rounded shadow-sm my-3"
           />
 
-          <h2 className="h5 mt-4 mb-3">Qué es Supabase</h2>
+          <h2 className="h5 mt-4 mb-3">Ronaldinho</h2>
           <div className="ratio ratio-16x9">
             <iframe
-              src="https://www.youtube.com/embed/zBZgdTb-dns"
-              title="Supabase in 100 Seconds"
+              src="https://www.youtube.com/embed/feRjEy72wvE"
+              title="46 Years Old Ronaldinho vs Forli 2026"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
