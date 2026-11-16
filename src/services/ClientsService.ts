@@ -1,7 +1,7 @@
 import { supabase } from '../config/supabase';
 import type { Client } from '../interfaces/Client';
 
-const TABLE = 'clients';
+const TABLE = 'clients2';
 
 export const ClientsService = {
   async getAll(): Promise<Client[]> {
